@@ -198,10 +198,14 @@
                  margin-top: 0px !important;
                  font-size: 68px;
                  line-height: 80px;
-                 display: flex;
+                 /* display: flex; */
                  align-items: center;
                  text-align: center;
                  color: #FFFFFF;
+             }
+             
+             .italic_header {
+                 text-decoration: underline;
              }
              
              .header_content2 h2 {
@@ -225,7 +229,7 @@
                  height: auto;
                  margin-top: 40px;
                  margin-left: 361px;
-                 font-family: Poppins;
+                 font-family: Poppin;
                  font-style: normal;
                  font-weight: 600;
                  font-size: 20px;
@@ -258,17 +262,20 @@
              
              .section1_row1_content {
                  max-width: 579px;
-                 height: 391;
+                 height: auto;
+                 background-color: tan;
+                 margin-left: -13px;
              }
              
              .section1_row1_content1 {
                  max-width: 128px;
-                 margin-top: 70px;
+                 margin-top: 97px;
                  height: auto;
              }
              
              .section1_imageLine img {
-                 margin-top: 50px;
+                 margin-top: -50px;
+                 margin-left: 75px;
              }
              
              .section1_row1_content1 .section1_about h5 {
@@ -280,7 +287,7 @@
                  font-weight: normal;
                  font-size: 24px;
                  line-height: 36px;
-                 display: flex;
+                 /* display: flex; */
                  align-items: center;
                  color: #FFFFFF;
                  opacity: 0.6;
@@ -289,13 +296,13 @@
              .section1_row1_content2 h2 {
                  max-width: 572px;
                  height: auto;
-                 margin-top: 8px;
+                 margin-top: -7px;
                  font-family: ABeeZee;
                  font-style: normal;
                  font-weight: normal;
                  font-size: 48px;
                  line-height: 57px;
-                 display: flex;
+                 /* display: flex; */
                  align-items: center;
                  color: #FFFFFF;
              }
@@ -313,16 +320,20 @@
                  font-weight: normal;
                  font-size: 22px;
                  line-height: 33px;
-                 display: flex;
+                 /* display: flex; */
                  align-items: center;
                  color: #FFFFFF;
+             }
+             
+             .font-italic-un {
+                 text-decoration: underline;
              }
              
              .section1_row1_images {
                  max-width: 638px;
                  height: 386px;
                  margin-top: 70px;
-                 margin-left: 23px;
+                 margin-left: -3px;
              }
              
              .section1_row1_images1 img {
@@ -383,19 +394,27 @@
                  margin-top: 20px;
              }
              
-             .section1_row2_content1 .section1_row2_OurTeam h5 {
-                 max-width: 119px;
+             .section1_row2 {
+                 width: 175px;
                  height: auto;
-                 margin-left: 450px;
-                 white-space: nowrap;
+                 margin-left: 410px;
+                 display: flex;
+                 background-color: teal;
+             }
+             
+             .text_underline {
+                 text-decoration: underline;
+             }
+             
+             .section1_ourTeam {
+                 width: 119px;
+                 height: auto;
+                 margin-top: 2px;
                  font-family: Poppin;
                  font-style: normal;
                  font-weight: normal;
                  font-size: 24px;
                  line-height: 36px;
-                 /* identical to box height */
-                 display: flex;
-                 align-items: center;
                  text-align: right;
                  color: #FFFFFF;
                  opacity: 0.6;
@@ -404,12 +423,14 @@
              .section1_row2_content2 h2 {
                  max-width: 572px;
                  height: auto;
+                 margin-top: 9px;
+                 margin-bottom: 30px;
                  font-family: ABeeZee;
                  font-style: normal;
                  font-weight: normal;
                  font-size: 48px;
                  line-height: 57px;
-                 display: flex;
+                 /* display: flex; */
                  align-items: center;
                  text-align: right;
                  color: #FFFFFF;
@@ -423,7 +444,7 @@
                  font-weight: normal;
                  font-size: 22px;
                  line-height: 33px;
-                 display: flex;
+                 /* display: flex; */
                  align-items: center;
                  text-align: right;
                  color: #FFFFFF;
@@ -1496,11 +1517,9 @@
              .divest_container_section5 {
                  max-width: 1240px;
                  height: auto;
-                 /* margin-left: 332px; */
                  margin-left: auto;
                  margin-right: auto;
                  margin-top: 111px;
-                 /* background-color: violet; */
              }
              /* image 1 slide 1 section5  */
              
@@ -1711,20 +1730,21 @@
              }
              
              .swiper-slide #section5_swiper-slide2 {
-                 margin-left: -337px;
+                 margin-left: -317px;
              }
              
              .swiper-slide #section5_swiper-slide3 {
-                 margin-left: -234px;
+                 margin-left: -194px;
              }
              
              .swiper-slide #section5_swiper-slide4 {
-                 margin-left: -98px;
+                 margin-left: -38px;
              }
              
              .swiper-slide #section5_swiper-slide5 {
-                 margin-left: 5px;
+                 margin-left: 85px;
              }
+             /*  */
              
              .section5_numberOfSlide2 {
                  margin-left: 600px;
