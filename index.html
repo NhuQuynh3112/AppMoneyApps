@@ -20,8 +20,8 @@
 </head>
 
 <body class="body_container">
-
-    <div class="container-fluid">
+    <!-- header -->
+    <div class="container-header">
         <header>
             <div class="navBar_header">
                 <div class="navigation_header">
@@ -31,13 +31,11 @@
                     <div class="nav_header_about "> <a href="#about">ABOUT</a> </div>
                     <div class="nav_header_journal"><a href="#journal">JOURNAL</a> </div>
                     <div class="nav_header_survices"> <a href="#services">SERVICES</a> </div>
-                    <div class="nav_header_ourWork"><a href="#ourWork"> WORK OUR</a></div>
+                    <div class="nav_header_ourWork"><a href="#uorWork"> WORK OUR</a></div>
                 </div>
-                <!-- <div class="footer_navigation_header"> -->
                 <div class="box_contactUS">
                     <div class="nav_header_contactUs"> <a href="#contactUs"> CONTACT US</a> </div>
                 </div>
-                <!-- </div> -->
                 <div class="header_contain">
                     <div class="header_content">
                         <div class="header_content1">
@@ -63,13 +61,9 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="section1_row1_content">
-                                <div class="section1_row1_content1">
-                                    <div class="section1_about">
-                                        <h5>About</h5>
-                                    </div>
-                                    <div class="section1_imageLine">
-                                        <img src="./images/section1_image_line.svg" alt="">
-                                    </div>
+                                <div class="section1_about">
+                                    <h5>About</h5>
+                                    <img src="./images/section1_image_line.svg" alt="">
                                 </div>
                                 <div class="section1_row1_content2">
                                     <h2>Ambitious designs for Interior Project. </h2>
@@ -138,7 +132,7 @@
                                 <div class="section3_row1_content1">
                                     <h4>Aesthetic Interior.</h4>
                                 </div>
-                                <div class="section3_row123_content2">
+                                <div class="section3_row1_content2">
                                     <h5>Great job for Aesthetic result. We all share the same vision here: to push ideas all the way.</h5>
                                 </div>
                                 <div class="section3_row123_content3">
@@ -153,7 +147,7 @@
                                     <div class="section3_row2_content1">
                                         <h4>Family Work.</h4>
                                     </div>
-                                    <div class="section3_row123_content2">
+                                    <div class="section3_row2_content2">
                                         <h5>Family Work. We all share the same vision here: to push ideas all the way. </h5>
                                     </div>
                                     <div class="section3_row123_content3">
@@ -169,7 +163,7 @@
                                     <div class="section3_row3_content1">
                                         <h4>Consistent Worker.</h4>
                                     </div>
-                                    <div class="section3_row123_content2">
+                                    <div class="section3_row3_content2">
                                         <h5>Great job for Consistent result. We all share the same vision here: to push ideas all the way.</h5>
                                     </div>
                                     <div class="section3_row123_content3">
@@ -267,10 +261,10 @@
                         var start = 1;
                         var end = 5;
                         var show = $('.numberOfSlide1');
-                        show.text(start + '/' + end);
+                        show.text(start + ' / ' + end);
                         $('.swiper-pagination-bullet').click(function() {
                             var index = $(this).index() + 1;
-                            $('.numberOfSlide1').html(index + '/' + end);
+                            $('.numberOfSlide1').html(index + ' / ' + end);
                         });
                     </script>
                 </div>
