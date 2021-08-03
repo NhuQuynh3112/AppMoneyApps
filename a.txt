@@ -1,14 +1,14 @@
-    hallo
-             @media only screen and (min-width: 450px) and (max-width:575.9px) {
+         @media only screen and (min-width: 450px) and (max-width:575.9px) {
                  .container-fluid .background_header {
                      width: 100%;
                      height: auto;
                      margin: 0;
-                     background-color: violet;
+                     /* background-color: violet; */
                  }
                  .navBar_header {
-                     max-width: 100%;
+                     max-width: 300px;
                      height: auto;
+                     margin-left: -20px !important;
                      display: flex;
                      flex-wrap: wrap;
                  }
@@ -41,13 +41,15 @@
                      width: 100%;
                      height: auto;
                      margin: 0;
+                     margin-top: -100px;
                      justify-content: center;
                      margin-left: -100px;
                  }
                  .header_content1 h2 {
                      width: 100%;
                      height: auto;
-                     font-size: 40px !important;
+                     line-height: 60px !important;
+                     font-size: 35px !important;
                  }
                  .header_content2 h2 {
                      width: 80%;
@@ -59,7 +61,7 @@
                      width: 50%;
                      height: auto;
                      font-size: 15px !important;
-                     margin-left: 100px !important;
+                     margin-left: 60px !important;
                  }
                  /* MAIN  REPONSIVE section 1*/
                  #about .row {
@@ -105,7 +107,7 @@
                      width: 100%;
                      height: auto;
                      /* display: flex;
-                     flex-wrap: wrap; */
+                    flex-wrap: wrap; */
                  }
                  .section1_row2_images img {
                      width: 400px !important;
@@ -126,7 +128,7 @@
                  }
                  .section1_row2_content2 h2 {
                      white-space: nowrap;
-                     font-size: 32px !important;
+                     font-size: 30px !important;
                  }
                  .section1_row2_content3 h5 {
                      width: 300px;
@@ -174,6 +176,11 @@
                      margin-top: -10px;
                      margin-left: 100px !important;
                      font-size: 40px !important;
+                 }
+                 .divest_container_section4 {
+                     width: 400px !important;
+                     height: auto;
+                     /* background-color: burlywood; */
                  }
                  /* section4 imgae1 slide */
                  #swiper-slide1 {
@@ -651,27 +658,32 @@
                  .mySwiper .swiper-wrapper {
                      width: 190px !important;
                      height: auto;
-                     background-color: tomato;
+                     /* background-color: tomato; */
                  }
              }
-
-              @media only screen and (min-width: 575.9px) and (max-width:767.9px) {
+             
+             @media only screen and (min-width: 575.9px) and (max-width:667.9px) {
                  .container-fluid .background_header {
                      width: 100%;
                      height: auto;
                      margin: 0;
-                     background-color: forestgreen;
                  }
                  .navBar_header {
-                     max-width: 100%;
+                     max-width: 300px;
                      height: auto;
+                     margin-left: -20px !important;
                      display: flex;
                      flex-wrap: wrap;
                  }
                  .navigation_header {
                      width: 25%;
                      height: auto;
-                     margin-left: 250px;
+                     font-size: 10px !important;
+                     margin-left: 200px;
+                 }
+                 .navigation_header h4 {
+                     font-size: 20px !important;
+                     margin-left: 20px;
                  }
                  .main_navigation_header {
                      width: 50%;
@@ -681,43 +693,69 @@
                      margin-left: 60px !important;
                  }
                  .box_contactUS {
-                     width: 25%;
+                     width: 17%;
                      height: auto;
                      justify-content: center;
                      align-items: center !important;
-                     margin-top: 100px !important;
-                     margin-left: -150px !important;
+                     margin-top: 90px !important;
+                     margin-left: -160px !important;
                  }
                  .nav_header_contactUs a {
-                     margin-left: 15px !important;
-                     font-size: 18px !important;
+                     margin-left: 10px !important;
+                     font-size: 14px !important;
                  }
                  /*   */
+                 .nav_header_about a {
+                     max-width: 40px;
+                     height: auto;
+                     font-size: 14px !important;
+                     line-height: 20px !important;
+                 }
+                 .nav_header_journal a {
+                     max-width: 40px;
+                     height: auto;
+                     font-size: 14px !important;
+                     line-height: 20px !important;
+                 }
+                 .nav_header_survices a {
+                     width: 42px;
+                     height: auto;
+                     font-size: 14px !important;
+                     line-height: 20px !important;
+                 }
+                 .nav_header_ourWork a {
+                     max-width: 56px;
+                     height: auto;
+                     font-size: 14px !important;
+                     line-height: 20px !important;
+                 }
                  .header_contain .header_content {
                      width: 100%;
                      height: auto;
                      margin: 0;
+                     margin-top: -100px;
                      justify-content: center;
                      margin-left: -100px;
-                     margin-top: -100px !important;
-                     margin-bottom: -100px;
                  }
                  .header_content1 h2 {
                      width: 100%;
                      height: auto;
-                     font-size: 40px !important;
+                     line-height: 45px !important;
+                     margin-left: -10px;
+                     font-size: 30px !important;
                  }
                  .header_content2 h2 {
                      width: 80%;
                      height: auto;
-                     font-size: 25px !important;
+                     margin-top: 10px !important;
+                     font-size: 18px !important;
                      margin-left: 50px !important;
                  }
                  .header_content3 h2 {
                      width: 50%;
                      height: auto;
-                     font-size: 15px !important;
-                     margin-left: 160px !important;
+                     font-size: 12px !important;
+                     margin-left: 140px !important;
                  }
                  /* MAIN  REPONSIVE section 1*/
                  #about .row {
@@ -736,7 +774,8 @@
                  }
                  .section1_about h1 {
                      width: 20px !important;
-                     font-size: 15px;
+                     height: auto;
+                     font-size: 10px !important;
                  }
                  .section1_imageLine img {
                      margin-top: 50px !important;
@@ -745,18 +784,32 @@
                  .section1_row1_content2 h2 {
                      width: 400px !important;
                      height: auto !important;
-                     font-size: 40px !important;
-                     margin-left: 50px;
+                     font-size: 20px !important;
+                     margin-left: 20px;
+                 }
+                 .section1_row2_content2 h2 {
+                     width: 400px !important;
+                     height: auto !important;
+                     font-size: 20px !important;
+                     margin-left: -100px;
                  }
                  .section1_row1_content3 h5 {
                      width: 400px !important;
                      height: auto !important;
+                     font-size: 20px !important;
                      margin-left: 25px;
+                 }
+                 .section1_row2_content3 h5 {
+                     width: 400px;
+                     height: auto;
+                     font-size: 20px !important;
+                     margin-left: -100px;
+                     text-align: left !important;
                  }
                  .section1_row1_images img {
                      width: 400px !important;
                      height: auto !important;
-                     margin-top: 400px !important;
+                     margin-top: 350px !important;
                      margin-left: -460px !important;
                  }
                  /* MAIN  REPONSIVE section 2*/
@@ -769,7 +822,7 @@
                  .section1_row2_images img {
                      width: 400px !important;
                      height: auto !important;
-                     margin-top: 750px !important;
+                     margin-top: 680px !important;
                      margin-left: -300px !important;
                  }
                  .col-sm-6 .section1_row2_content {
@@ -778,31 +831,20 @@
                      margin-top: 300px;
                      margin-left: -350px;
                  }
+                 .section3_row123_content3 h6 {
+                     white-space: nowrap;
+                 }
                  .section1_row2_content1 .row {
                      background-color: khaki;
                      margin-top: 400px;
                      margin-left: -500px;
                  }
                  .section1_row2_imageLine {
-                     margin-left: 150px;
-                 }
-                 .section1_row2_content2 {
-                     width: 250px;
-                     height: auto;
-                     margin-left: -110px;
-                 }
-                 .section1_row2_content2 h2 {
-                     white-space: nowrap;
-                     font-size: 32px !important;
+                     margin-left: 160px;
+                     margin-top: 5px
                  }
                  .section1_row2_OurTeam h5 {
                      margin-left: 380px !important;
-                 }
-                 .section1_row2_content3 h5 {
-                     width: 300px;
-                     height: auto;
-                     margin-left: -100px;
-                     text-align: left !important;
                  }
                  /*  MAIN reponsive section 3*/
                  .container_section2 #journal {
@@ -814,13 +856,25 @@
                  .section2_title h1 {
                      white-space: nowrap;
                      margin-left: -30px;
-                     font-size: 40px !important;
+                     font-size: 30px !important;
+                     margin-top: -40px
                  }
                  .section3_row {
                      margin-left: -25px;
                  }
                  .section3_row1_content1 h4 {
                      margin-top: -20px;
+                     font-size: 20px !important;
+                     white-space: nowrap;
+                 }
+                 .section3_row2_content1 h4 {
+                     margin-top: -20px;
+                     font-size: 20px !important;
+                     white-space: nowrap;
+                 }
+                 .section3_row3_content1 h4 {
+                     margin-top: -20px;
+                     font-size: 20px !important;
                      white-space: nowrap;
                  }
                  .section3_row2 {
@@ -843,6 +897,16 @@
                      margin-top: -10px;
                      margin-left: 100px !important;
                      font-size: 40px !important;
+                 }
+                 .divest_container_section4 {
+                     width: 550px !important;
+                     height: auto;
+                     /* background-color: burlywood; */
+                 }
+                 .section3_row123_content2 {
+                     width: 400px !important;
+                     height: auto !important;
+                     font-size: 14px !important;
                  }
                  /* section4 imgae1 slide */
                  #swiper-slide1 {
@@ -1285,7 +1349,7 @@
                      height: auto;
                      display: flex;
                      flex-wrap: wrap;
-                     margin-left: -100px;
+                     margin-left: -200px;
                  }
                  .row .footer_content1 {
                      margin-left: 350px;
