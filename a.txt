@@ -1,3 +1,5 @@
+         halohalo
+         
          @media only screen and (min-width: 450px) and (max-width:575.9px) {
                  .container-fluid .background_header {
                      width: 100%;
