@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+        .section4 {
+            width: 1240px;
+            height: auto;
+            background-color: darksalmon;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        .swiper-slide img {
+            width: 480px;
+            height: 682px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<section class="section4">
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://vuagaubong.com/wp-content/uploads/2020/03/Heo-bong-2.jpg" alt="" class="image1_section4_slide"></div>
+            <div class="swiper-slide"><img src="https://cf.shopee.vn/file/fed0c154b9017660933d1dea0b6867a5" alt="" class="image2_section4_slide"></div>
+            <div class="swiper-slide"> <img src="https://salt.tikicdn.com/ts/product/ab/22/df/edb15c5484fbec628c7d2f6004ffe88a.jpg" alt="" class="image3_section4_slide"></div>
+            <div class="swiper-slide"> <img src="https://vn-live-03.slatic.net/p/f462ab93f16419e9eda42cdb6a516372.jpg" alt="" class="image4_section4_slide"></div>
+            <div class="swiper-slide"> <img src="https://salt.tikicdn.com/cache/w444/ts/product/42/c6/e9/7960e8399cb509bb1a8f51716cf0c95f.jpg" alt="" class="image5_section4_slide">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 440,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</section>
+
+</html>
