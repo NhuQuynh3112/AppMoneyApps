@@ -220,38 +220,44 @@
                 /* background-color: khaki; */
             }
             .footer_title a {
-                /* background-color: lawngreen; */
                 font-size: 15px !important;
+                margin-left: 130px !important;
+            }
+            .fisrt_footer_content {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 50px !important;
+                margin-left: -20px !important;
             }
             .fisrt_footer_content a {
-                /* background-color: sandybrown; */
                 font-size: 15px !important;
-                margin-left: -50px !important;
+            }
+            .fisrt_footer_content a #journal {
+                margin-top: -60px !important;
             }
             .second_footer_content {
-                margin-left: 60px !important;
-                /* background-color: springgreen; */
+                margin-top: 160px !important;
+                margin-left: -60px !important;
             }
             .second_footer_content a {
                 font-size: 15px !important;
             }
-            /* .third_footer_content {
-                width: 200px !important;
-                background-color: yellow;
-                margin-top: 80px !important;
-                margin-left: -400px !important;
+            .third_footer_content {
+                margin-top: 10px !important;
             }
             .third_footer_content a {
                 font-size: 15px !important;
-            } */
+            }
             .mySwiper1 .swiper-wrapper {
                 position: relative !important;
                 margin-left: -180px !important;
-                background-color: teal;
             }
             .mySwiper .swiper-wrapper {
                 position: relative !important;
                 margin-left: -105px !important;
+            }
+            .footer_getItTouch a {
+                font-size: 15px !important;
             }
         }
         
@@ -660,7 +666,7 @@
             width: 175px;
             height: auto;
             display: flex;
-            margin-left: 413px;
+            margin-left: 405px;
         }
         
         .title_ourTeam_section2 h4 {
@@ -1021,6 +1027,7 @@
             width: 1240px;
             height: auto;
             display: flex;
+            flex-wrap: wrap;
             padding-bottom: 75px;
             margin-right: auto;
             margin-left: auto;
@@ -1351,7 +1358,7 @@
             margin-left: auto;
             margin-right: auto;
             /* margin-left: 249px; */
-            margin-bottom: 40px;
+            margin-bottom: 39px;
             font-family: Poppins;
             font-style: normal;
             font-weight: normal;
