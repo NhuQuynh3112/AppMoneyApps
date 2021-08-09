@@ -249,6 +249,10 @@
                 margin-left: -180px !important;
                 background-color: teal;
             }
+            .mySwiper .swiper-wrapper {
+                position: relative !important;
+                margin-left: -105px !important;
+            }
         }
         
         @font-face {
@@ -478,7 +482,8 @@
             margin-left: 1012px;
             width: 48px;
             height: auto;
-            padding-top: 10px;
+            background-color: teal;
+            padding-top: 14px;
             font-family: Poppins;
             font-style: normal;
             font-weight: 600;
