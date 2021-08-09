@@ -1,225 +1,165 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-<head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<meta charset="utf-8" />
+<title>Wiicamp's homework 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css.css">
 
-    <link rel="stylesheet" href="./style.css">
-</head>
 
-<body class="body_container">
-    <!-- header -->
-    <header>
-        <div class="container-header">
-            <div class="divest_header">
-                <!-- <nav class="navbar fixed-top navbar-expand-lg"> -->
-                <nav class="navbar navbar-expand-lg ">
-                    <a class="navbar-brand" href="#">FOptimal</a>
-                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item ">
-                                <a class="nav-link header_about " href="#about">ABOUT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link header_journal" href="#journal">JOURNAL</a>
 
-                                <li class="nav-item">
-                                    <a class="nav-link header_services" href="#services">SERVICES</a>
-                                </li>
-                            </li>
+
+<body>
+    <!--  header -->
+    <header class="container_header">
+        <div class="backgroung_image_header">
+            <img class="img_header" src="./images/backgroundImageNav.svg" alt="">
+        </div>
+        <div class="content-header">
+            <nav class="navbar fixed-top navbar-expand-lg ">
+                <a class="navbar-brand" href="#">FOptimal</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link header_about " href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header_journal" href="#journal">JOURNAL</a>
+
                             <li class="nav-item">
-                                <a class="nav-link header_workOut " href="#workOut">WORK OUT</a>
+                                <a class="nav-link header_services" href="#our_services">SERVICES</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link header_contactUs" href="#contactUs"> CONTACT US</a>
-                            </li>
-                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header_workOut " href="#our_work">WORK OUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header_contactUs" href="#contactUs"> CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header_content">
+                <div class="divest_content_header">
+                    <div class="header_content1">
+                        <h1>Passionate about Design <span class="font-italic text_underline"> Interior.</span> </h1>
                     </div>
-                </nav>
-                <div class="header_contain">
-                    <div class="header_content">
-                        <div class="header_content1">
-                            <h1>Passionate about Design <span class="font-italic italic_header"> Interior.</span> </h1>
-                        </div>
-                        <div class="header_content2">
-                            <h2>Industrial style interior for a young married couple.</h2>
-                        </div>
-                        <div class="header_content3">
-                            <a> DISCOVER MORE </a>
-                            <img class="header_img_line_underDiscover" src="./images/header_line_underDiscover.svg" alt="">
-                        </div>
+                    <div class="header_content2">
+                        <h2>Industrial style interior for a young married couple.</h2>
+                    </div>
+                    <div class="header_content3">
+                        <a> DISCOVER MORE </a>
+                        <img class="header_img_line_underDiscover" src="./images/header_line_underDiscover.svg" alt="">
                     </div>
                 </div>
+
             </div>
         </div>
     </header>
-    <!-- <div class="container-header">
-        <header>
-            <div class="navBar_header">
-                <div class="navigation_header">
-                    <h4 class="nav_header">FOptimal </h4>
-                </div>
-                <div class="main_navigation_header">
-                    <div class="nav_header_about "> <a href="#about">ABOUT</a> </div>
-                    <div class="nav_header_journal"><a href="#journal">JOURNAL</a> </div>
-                    <div class="nav_header_survices"> <a href="#services">SERVICES</a> </div>
-                    <div class="nav_header_ourWork"><a href="#uorWork"> WORK OUR</a></div>
-                </div>
-                <div class="box_contactUS">
-                    <div class="nav_header_contactUs"> <a href="#contactUs"> CONTACT US</a> </div>
-                </div>
-                <div class="header_contain">
-                    <div class="header_content">
-                        <div class="header_content1">
-                            <h1>Passionate about Design <span class="font-italic italic_header"> Interior.</span> </h1>
-                        </div>
-                        <div class="header_content2">
-                            <h2>Industrial style interior for a young married couple.</h2>
-                        </div>
-                        <div class="header_content3">
-                            <h2> DISCOVER MORE </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </header>
-    </div> -->
     <main>
-        <!-- section 1 -->
-        <section class="container_section1">
-            <div class="section1_contain">
-                <div id="about">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="section1_row1_content">
-                                <div class="section1_about">
-                                    <h5>About</h5>
-                                    <img src="./images/section1_image_line.svg" alt="">
-                                </div>
-                                <div class="section1_row1_content2">
-                                    <h2>Ambitious designs for<span class="font-italic text_underline">Interior Project. </span> </h2>
-                                </div>
-                                <div class="section1_row1_content3">
-                                    <h5> <span class="font-italic font-italic-un"> Furniture Optimal</span> stands out among property agencies, and offers a wide range of creative and strategic services for brands, <br> companies, foundations and other remarkable
-                                        organizations.
-                                    </h5>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="section1_row1_images">
-                                <div class="section1_row1_images1">
-                                    <img src="./images/imageSection1.svg" alt="">
-                                </div>
-                                <div class="section1_row1_images2">
-                                    <img src="./images/imageSection1a.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- OurTeam -->
-                <div id="ourTeam">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="section1_row2_images">
-                                <div class="section1_row2_images1">
-                                    <img src="./images/imagesSection1Row2.svg" alt="">
-                                </div>
-                                <div class="section1_row2_images2">
-                                    <img src="./images/imagesSection1Row2a.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="section1_row2_content">
-                                <div class="section1_row2">
-                                    <img src="./images/section1_image_line.svg" alt="">
-                                    <h5 class="section1_ourTeam">Our Team</h5>
-                                </div>
-                                <div class="section1_row2_content2">
-                                    <h2> <span class="font-italic text_underline"> We Work </span>with the great team.</h2>
-                                </div>
-                                <div class="section1_row2_content3">
-                                    <h5> <span class="font-italic text_underline"> Furniture Optimal </span>isn’t just a team — it’s a family. We all share the same vision here: to push ideas all the way, without taking ourselves too seriously, and overcoming
-                                        challenges together.</h5>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <!-- section2 -->
+        <!-- section 2 -->
         <section class="container_section2">
-            <div id="journal">
-                <div class="section2_contain">
-                    <div class="section2_title">
-                        <h1> We made <span class="Style_work_underline"> Journal. </span></h1>
+            <div class="row" id="about">
+                <div class="col-sm-6">
+                    <div class="section1_about_text">
+                        <div class="title_about_section2">
+                            <h4>About</h1>
+                                <img src="./images/section1_image_line.svg" alt="">
+                        </div>
+                        <h2 class="text_under_title_about_section2">Ambitious designs for <span class="font-italic text_underline">Interior Project.  </span></h2>
+                        <h2 class="end_text_about_section2">
+                            <span class="font-italic text_underline"> Furniture Optimal </span> stands out among property agencies, and offers a wide range of creative and strategic services for brands,<br> companies, foundations and other remarkable
+                            organizations.
+                        </h2>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="section3_row">
-                                <div class="section3_row1">
-                                    <div class="section3_row1_content1">
-                                        <h4>Aesthetic Interior.</h4>
-                                    </div>
-                                    <div class="section3_row1_content2">
-                                        <h5>Great job for Aesthetic result. We all share the same vision here: to push ideas all the way.</h5>
-                                    </div>
-                                    <div class="section3_row123_content3">
-                                        <a>Read More</a>
-                                        <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
-                                    </div>
-                                </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="section1_row1_images">
+                        <img src="./images/imageSection1.svg" alt="" class="section2_image_top ">
+                        <img src="./images/imageSection1a.svg" alt="" class="section2_image_under ">
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="section2_row2_images">
+                        <img src="./images/imageSection1.svg" alt="" class="section2_row2_image_top ">
+                        <img src="./images/imageSection1a.svg" alt="" class="section2_row2_image_under ">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="section1_ourTeam_text">
+                        <div class="title_ourTeam_section2">
+                            <img src="./images/section1_image_line.svg" alt="">
+                            <h4>Our Team</h1>
+                        </div>
+                        <h2 class="text_under_outTeam_section2"> <span class="font-italic text_underline_row2_section2"> We Work </span> with the great team.</h2>
+                        <h2 class="end_text_outTeam_section2">
+                            <span class="font-italic text_underline"> Furniture Optimal </span>isn’t just a team — it’s a family. We all share the same vision here: to push ideas all the way, without taking ourselves too seriously, and overcoming challenges
+                            together.
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--  section 3 -->
+        <section class="container_section3" id="journal">
+            <div class="section3_contain">
+                <div class="section3_title">
+                    <h1> We made <span class="font-italic text_underline">Journal. </span> </h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="section3_row1">
+                            <div class="section3_row1_title">
+                                <h4>Aesthetic Interior.</h4>
+                            </div>
+                            <div class="section3_under_row1_title">
+                                <h5>Great job for Aesthetic result. We all share the same vision here: to push ideas all the way.</h5>
+                            </div>
+                            <div class="section3_row123_content3">
+                                <a>Read More</a>
+                                <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="section3_row">
-                                <div class="section3_row2">
-                                    <div class="section3_row2_content1">
-                                        <h4>Family Work.</h4>
-                                    </div>
-                                    <div class="section3_row2_content2">
-                                        <h5>Family Work. We all share the same vision here: to push ideas all the way. </h5>
-                                    </div>
-                                    <div class="section3_row123_content3">
-                                        <a>Read More</a>
-                                        <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section3_row2">
+                            <div class="section3_row2_title">
+                                <h4>Family Work.</h4>
+                            </div>
+                            <div class="section3_under_row2_content2">
+                                <h5>Family Work. We all share the same vision here: to push ideas <br> all the way. </h5>
+                            </div>
+                            <div class="section3_row123_content3">
+                                <a>Read More</a>
+                                <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="section3_row">
-                                <div class="section3_row3">
-                                    <div class="section3_row3_content1">
-                                        <h4>Consistent Worker.</h4>
-                                    </div>
-                                    <div class="section3_row3_content2">
-                                        <h5>Great job for Consistent result. We all share the same vision here: to push ideas all the way.</h5>
-                                    </div>
-                                    <div class="section3_row123_content3">
-                                        <a>Read More</a>
-                                        <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section3_row3">
+                            <div class="section3_row3_title">
+                                <h4>Consistent Worker.</h4>
+                            </div>
+                            <div class="section3_row3_content2">
+                                <h5>Great job for Consistent result. We all share the same vision here: to push ideas all the way.</h5>
+                            </div>
+                            <div class="section3_row123_content3">
+                                <a>Read More</a>
+                                <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -227,314 +167,215 @@
             </div>
             </div>
         </section>
-        <!-- section 4 -->
-        <section id="uorWork">
-            <div class="divest_container_section4">
-                <div class="class_section4_title">
-                    <h1> Our <span class="Style_work_underline"> Work </span></h1>
-                </div>
-                <div>
-                    <div class="swiper-container mySwiper">
-                        <div class="swiper-wrapper">
-                            <!-- 1 -->
-                            <div class="swiper-slide">
-                                <div id="swiper-slide1">
-                                    <img src="https://vuagaubong.com/wp-content/uploads/2020/03/Heo-bong-2.jpg" alt="" class="image1_section4_slide">
-                                    <div class="show_hover_image1_section4_slide">
-                                        <h1 class="text1_hover_image1"> Design Interior</h1>
-                                    </div>
-                                </div>
+        <!--  section 4-->
+        <section class="section4" id="our_work">
+            <h1 class="title_section4"> Our <span class="font-italic text_underline"> Work </span> </h1>
+            <div class="swiper-container mySwiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide_section4">
+                            <img src="https://vuagaubong.com/wp-content/uploads/2020/03/Heo-bong-2.jpg" alt="" class="image_section4_slide">
+                            <div class="show_hover_image1_section4_slide">
+                                <h1 class="text1_hover_image1"> Design Interior</h1>
                             </div>
-                            <!-- 2 -->
-                            <div class="swiper-slide">
-                                <div id="swiper-slide2">
-                                    <img src="https://cf.shopee.vn/file/fed0c154b9017660933d1dea0b6867a5" alt="" class="image2_section4_slide">
-                                    <div class="show_hover_image2_section4_slide">
-                                        <h1 class="text2_hover_image2"> Design Interior</h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- 3 -->
-                            <div class="swiper-slide">
-                                <div id="swiper-slide3">
-                                    <img src="https://salt.tikicdn.com/ts/product/ab/22/df/edb15c5484fbec628c7d2f6004ffe88a.jpg" alt="" class="image3_section4_slide">
-                                    <div class="show_hover_image3_section4_slide">
-                                        <h1 class="text3_hover_image3"> Design Interior</h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- 4 -->
-                            <div class="swiper-slide">
-                                <div id="swiper-slide4">
-                                    <img src="https://vn-live-03.slatic.net/p/f462ab93f16419e9eda42cdb6a516372.jpg" alt="" class="image4_section4_slide">
-                                    <div class="show_hover_image4_section4_slide">
-                                        <h1 class="text4_hover_image4"> Design Interior</h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- 5 -->
-                            <div class="swiper-slide">
-                                <div id="swiper-slide5">
-                                    <img src="https://salt.tikicdn.com/cache/w444/ts/product/42/c6/e9/7960e8399cb509bb1a8f51716cf0c95f.jpg" alt="" class="image5_section4_slide">
-                                    <div class="show_hover_image5_section4_slide">
-                                        <h1 class="text5_hover_image5"> Design Interior</h1>
-                                    </div>
-                                </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide_section4">
+                            <img src="https://cf.shopee.vn/file/fed0c154b9017660933d1dea0b6867a5" alt="" class="image_section4_slide">
+                            <div class="show_hover_image1_section4_slide">
+                                <h1 class="text1_hover_image1"> Design Interior</h1>
                             </div>
                         </div>
                     </div>
-                    <div class="icon_number_slide1">
-                        <div class="swiper-pagination">
-                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                            <span class="swiper-pagination-bullet "></span>
-                            <span class="swiper-pagination-bullet"></span>
-                            <span class="swiper-pagination-bullet"></span>
-                            <span class="swiper-pagination-bullet"></span>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide_section4">
+                            <img src="https://salt.tikicdn.com/ts/product/ab/22/df/edb15c5484fbec628c7d2f6004ffe88a.jpg" alt="" class="image3_section4_slide">
+                            <div class="show_hover_image1_section4_slide">
+                                <h1 class="text1_hover_image1"> Design Interior</h1>
+                            </div>
                         </div>
-                        <div class="section4_numberOfSlide1">
-                            <div class="numberOfSlide1">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide_section4">
+                            <img src="https://vn-live-03.slatic.net/p/f462ab93f16419e9eda42cdb6a516372.jpg" alt="" class="image4_section4_slide">
+                            <div class="show_hover_image1_section4_slide">
+                                <h1 class="text1_hover_image1"> Design Interior</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide_section4">
+                            <img src="https://salt.tikicdn.com/cache/w444/ts/product/42/c6/e9/7960e8399cb509bb1a8f51716cf0c95f.jpg" alt="" class="image5_section4_slide">
+                            <div class="show_hover_image1_section4_slide">
+                                <h1 class="text1_hover_image1"> Design Interior</h1>
                             </div>
                         </div>
                     </div>
 
-                    <script>
-                        var swiper = new Swiper(".mySwiper", {
-                            slidesPerView: 3,
-                            spaceBetween: 80,
-                            slidesToScroll: 1,
-                            // dots: true,
-
-                            // infinite: true,
-                            // adaptiveHeight: true,
-                            centeredSlides: true,
-                            pagination: {
-                                el: ".swiper-pagination",
-                                clickable: true,
-                            },
-                        });
-                        var start = 1;
-                        var end = 5;
-                        var show = $('.numberOfSlide1');
-                        show.text(start + '/' + end);
-                        $('.swiper-pagination-bullet').click(function() {
-                            var index = $(this).index() + 1;
-                            $('.numberOfSlide1').html(index + '/' + end);
-                        });
-                        $('.swiper-pagination-bullet').slideshow_auto(function() {
-                            var index = $(this).index() + 1;
-                            $('.numberOfSlide1').html(index + '/' + end);
-                        });
-                    </script>
                 </div>
             </div>
-        </section>
-        <!-- section5 -->
-        <section id="services">
-            <div class="divest_container_section5">
-                <div class="class_section5_title">
-                    <h1> Our <span class="Style_work_underline"> Services </span></h1>
+            <!-- </div> -->
+            <div class="swiper_section4">
+                <div class="swiper-pagination">
+                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                    <span class="swiper-pagination-bullet "></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
                 </div>
-                <div class="swiper-container mySwiper2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div id="section5_swiper-slide1">
-                                <img src="./images/slide2_image2_section5.svg" alt="" class="image1_section5_slide">
-                                <div class="divies_content_image1">
-                                    <div class="diver2_section5">
-                                        <div class="line1_slide1_section5">
-                                            <img src="./images/section1_image_line.svg" alt="">
-                                        </div>
+                <div class="section4_numberOfSlide1">
+                    <span class="numberOfSlide1">
+                </span>
+                </div>
+            </div>
+            <script>
+                var swiper = new Swiper(".mySwiper1", {
+                    slidesPerView: 3,
+                    centeredSlides: true,
+                    spaceBetween: 440,
+                    freeMode: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+                var start = 1;
+                var end = 5;
+                var show = $('.numberOfSlide1');
+                show.text(start + '/' + end);
+                $('.swiper-pagination-bullet').click(function() {
+                    var index = $(this).index() + 1;
+                    $('.numberOfSlide1').html(index + '/' + end);
+                });
+            </script>
+        </section>
+        <!-- section 5 -->
 
-                                        <div>
-                                            <h4 class="text1_image1_section5"> Design Interior</h4>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h3 class="text2_image1_section5">Library Room Design </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div id="section5_swiper-slide2">
-                                <img src="./images/slide2_image3_section5.svg" alt="" class="image2_section5_slide">
-                                <div class="divies_content_image2">
-                                    <div class="diver2_section5">
-                                        <div class="line1_slide2_section5">
-                                            <img src="./images/section1_image_line.svg" alt="">
-                                        </div>
-                                        <div>
-                                            <h4 class="text1_image2_section5"> Design Architecture</h4>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h3 class="text2_image2_section5"> Building Design </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div id="section5_swiper-slide3">
-                                <img src="./images/slide2_image2_section5.svg" alt="" class="image3_section5_slide">
-                                <div class="divies_content_image3">
-                                    <div class="diver3_section5">
-                                        <div class="line1_slide3_section5">
-                                            <img src="./images/section1_image_line.svg" alt="">
-                                        </div>
-                                        <div>
-                                            <h4 class="text1_image3_section5"> Design Interior</h4>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h3 class="text2_image3_section5">Rest Room Design </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div id="section5_swiper-slide4">
-                                <img src="./images/slide2_image3_section5.svg" alt="" class="image4_section5_slide">
-                                <div class="divies_content_image4">
-                                    <div class="diver4_section5">
-                                        <div class="line1_slide4_section5">
-                                            <img src="./images/section1_image_line.svg" alt="">
-                                        </div>
-                                        <div>
-                                            <h4 class="text1_image4_section5"> Design Interior</h4>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h3 class="text2_image4_section5">Rest Room Design </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div id="section5_swiper-slide5">
+        <section class="section4" id="our_services">
+            <h1 class="title_section5"> Our <span class="font-italic text_underline"> Services </span></h1>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="section5_swiper">
                                 <img src="./images/slide2_image2_section5.svg" alt="" class="image5_section5_slide">
-                                <div class="divies_content_image4">
-                                    <div class="diver5_section5">
-                                        <div class="line1_slide5_section5">
-                                            <img src="./images/section1_image_line.svg" alt="">
-                                        </div>
-                                        <div>
-                                            <h4 class="text1_image5_section5"> Design Interior</h4>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h3 class="text2_image5_section5">Rest Room Design </h3>
-                                    </div>
-                                </div>
                             </div>
+                            <div class="section5_image1_title">
+                                <img src="./images/section1_image_line.svg" alt="">
+                                <h2> Design Interior</h2>
+                            </div>
+                            <h2 class="section5_image1_content">Library Room Design</h2>
                         </div>
 
                     </div>
-
-                    <div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="section5_swiper">
+                                <img src="./images/slide2_image3_section5.svg" alt="" class="image4_section5_slide">
+                            </div>
+                            <div class="section5_image1_title">
+                                <img src="./images/section1_image_line.svg" alt="">
+                                <h2> Design Interior</h2>
+                            </div>
+                            <h2 class="section5_image2_content">Rest Room Design </h2>
+                        </div>
 
                     </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="section5_swiper">
+                                <img src="./images/slide2_image2_section5.svg" alt="" class="image5_section5_slide">
+                            </div>
+                            <div class="section5_image3_title">
+                                <img src="./images/section1_image_line.svg" alt="">
+                                <h2> Design Architecture</h2>
+                            </div>
+                            <h2 class="section5_image3_content">Building Design</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="section5_swiper">
+                                <img src="./images/slide2_image3_section5.svg" alt="" class="image4_section5_slide">
+                            </div>
+                            <div class="section5_image1_title">
+                                <img src="./images/section1_image_line.svg" alt="">
+                                <h2> Design Interior</h2>
+                            </div>
+                            <h2 class="section5_image1_content">Library Room Design</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="section5_swiper">
+                                <img src="./images/slide2_image2_section5.svg" alt="" class="image5_section5_slide">
+                            </div>
+                            <div class="section5_image1_title">
+                                <img src="./images/section1_image_line.svg" alt="">
+                                <h2> Design Interior</h2>
+                            </div>
+                            <h2 class="section5_image2_content">Rest Room Design </h2>
+                        </div>
+                    </div>
 
-                    <div class="icon_number_slide2">
-                        <div class="swiper-pagination">
-                            <div class="swiper-pagination">
-                                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                                <span class="swiper-pagination-bullet"></span>
-                                <span class="swiper-pagination-bullet"></span>
-                                <span class="swiper-pagination-bullet"></span>
-                                <span class="swiper-pagination-bullet"></span>
-                            </div>
-                        </div>
-                        <div class="section5_numberOfSlide2">
-                            <div class="numberOfSlide2">
-                            </div>
-                        </div>
+                </div>
+                <!-- <br><br> -->
+                <div class="swiper_section5">
+                    <div class="swiper-pagination"></div>
+                    <div class="section5_numberOfSlide1">
+                        <span class="numberOfSlide2">
+                    </span>
                     </div>
                 </div>
 
-                <script>
-                    var swiper = new Swiper(".mySwiper2", {
-                        slidesPerView: 4,
-                        spaceBetween: 20,
-                        centeredSlides: true,
-                        pagination: {
-                            el: ".swiper-pagination",
-                            clickable: true,
-                        },
-                    });
-                    var start = 1;
-                    var end = 5;
-                    var show = $('.numberOfSlide2');
-                    show.text(start + '/' + end);
-                    $('.swiper-pagination-bullet').click(function() {
-                        var index = $(this).index() + 1;
-                        $('.numberOfSlide2').html(index + '/' + end);
-                    });
-                </script>
             </div>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 3,
+                    centeredSlides: true,
+                    spaceBetween: 172,
+                    freeMode: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+                var start = 1;
+                var end = 5;
+                var show = $('.numberOfSlide2');
+                show.text(start + '/' + end);
+                $('.swiper-pagination-bullet').click(function() {
+                    var index = $(this).index() + 1;
+                    $('.numberOfSlide2').html(index + '/' + end);
+                });
+            </script>
         </section>
-        <!-- footer -->
-        <footer class="footer_divest" id="contactUs">
-            <div class="footer_container">
-                <div class="style_image_footer">
-                    <div class="footer_image">
-                        <img src="./images/footer_line.svg" alt="">
-                    </div>
+        <footer>
+            <div class="footer_image">
+                <img class="footer_image" src="./images/footer_line.svg" alt="">
+            </div>
+            <div class="footer">
+                <div class="footer_title">
+                    <a href=""> FOptimal <sup class="sup_footer_title">  © </sup></a>
                 </div>
-                <div class="footer_display">
-                    <div class="row">
-                        <div class="footer_content1">
-                            <div class="col-sm-6">
-                                <div class="footer_content_row1">
-                                    <a>FOptimal</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="footer_content_row1a">
-                                    <h6>©</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="footer_content2">
-                        <div class="footer_about">
-                            <a href="#about">About</a>
-                        </div>
-                        <div class="footer_jurnal">
-                            <a href="#journal">Journal</a>
-                        </div>
-                    </div>
-
-                    <div class="footer_content3">
-                        <div class="footer_Services">
-                            <a href="#services">Services</a>
-                        </div>
-                        <div class="footer_ourWork">
-                            <a href="#uorWork">Our Work</a>
-                        </div>
-                    </div>
-
-                    <div class="footer_content4">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="footer_locationIcon">
-                                    <img src="./images/imagesLocation.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="footer_content4a">
-                                    <a href="https://www.google.com/maps/place/Bd+Audent+18,+6000+Charleroi,+B%E1%BB%89/@50.4096533,4.4427298,17z/data=!3m1!4b1!4m5!3m4!1s0x47c2260b61128565:0xcf62a0858d72efc2!8m2!3d50.4096533!4d4.4449185">Boulevard Audent 18 6000 Charleroi Belgique</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer_content5">
-                        <div class="box_footer_getItTouch">
-                            <div class="footer_getItTouch">
-                                <a> GET IT TOUCH </a>
-                            </div>
+                <div class="fisrt_footer_content">
+                    <a href="#about">About</a>
+                    <a href="#journal">Jurnal</a>
+                </div>
+                <div class="second_footer_content">
+                    <a href="#our_services">Services</a>
+                    <a href="#our_work">Our Work </a>
+                </div>
+                <div class="third_footer_content">
+                    <img src="./images/imagesLocation.svg" alt="">
+                    <a href="https://www.google.com/maps/place/Bd+Audent+18,+6000+Charleroi,+B%E1%BB%89/@50.4096533,4.4427298,17z/data=!3m1!4b1!4m5!3m4!1s0x47c2260b61128565:0xcf62a0858d72efc2!8m2!3d50.4096533!4d4.4449185">Boulevard Audent 18 6000 Charleroi Belgique</a>
+                </div>
+                <div class="end_footer_content">
+                    <div class="box_footer_getItTouch">
+                        <div class="footer_getItTouch">
+                            <a> GET IT TOUCH </a>
                         </div>
                     </div>
                 </div>
@@ -543,5 +384,6 @@
     </main>
 
 </body>
+
 
 </html>

@@ -1,4 +1,103 @@
+    <section id="uorWork">
+            <div class="divest_container_section4">
+                <div class="class_section4_title">
+                    <h1> Our <span class="Style_work_underline"> Work </span></h1>
+                </div>
+                <div>
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <!-- 1 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide1">
+                                    <img src="https://vuagaubong.com/wp-content/uploads/2020/03/Heo-bong-2.jpg" alt="" class="image1_section4_slide">
+                                    <div class="show_hover_image1_section4_slide">
+                                        <h1 class="text1_hover_image1"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide2">
+                                    <img src="https://cf.shopee.vn/file/fed0c154b9017660933d1dea0b6867a5" alt="" class="image2_section4_slide">
+                                    <div class="show_hover_image2_section4_slide">
+                                        <h1 class="text2_hover_image2"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide3">
+                                    <img src="https://salt.tikicdn.com/ts/product/ab/22/df/edb15c5484fbec628c7d2f6004ffe88a.jpg" alt="" class="image3_section4_slide">
+                                    <div class="show_hover_image3_section4_slide">
+                                        <h1 class="text3_hover_image3"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide4">
+                                    <img src="https://vn-live-03.slatic.net/p/f462ab93f16419e9eda42cdb6a516372.jpg" alt="" class="image4_section4_slide">
+                                    <div class="show_hover_image4_section4_slide">
+                                        <h1 class="text4_hover_image4"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide5">
+                                    <img src="https://salt.tikicdn.com/cache/w444/ts/product/42/c6/e9/7960e8399cb509bb1a8f51716cf0c95f.jpg" alt="" class="image5_section4_slide">
+                                    <div class="show_hover_image5_section4_slide">
+                                        <h1 class="text5_hover_image5"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon_number_slide1">
+                        <div class="swiper-pagination">
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                            <span class="swiper-pagination-bullet "></span>
+                            <span class="swiper-pagination-bullet"></span>
+                            <span class="swiper-pagination-bullet"></span>
+                            <span class="swiper-pagination-bullet"></span>
+                        </div>
+                        <div class="section4_numberOfSlide1">
+                            <div class="numberOfSlide1">
+                            </div>
+                        </div>
+                    </div>
 
+                    <script>
+                        var swiper = new Swiper(".mySwiper", {
+                            slidesPerView: 3,
+                            spaceBetween: 80,
+                            slidesToScroll: 1,
+                            // dots: true,
+
+                            // infinite: true,
+                            // adaptiveHeight: true,
+                            centeredSlides: true,
+                            pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                            },
+                        });
+                        var start = 1;
+                        var end = 5;
+                        var show = $('.numberOfSlide1');
+                        show.text(start + '/' + end);
+                        $('.swiper-pagination-bullet').click(function() {
+                            var index = $(this).index() + 1;
+                            $('.numberOfSlide1').html(index + '/' + end);
+                        });
+                        $('.swiper-pagination-bullet').slideshow_auto(function() {
+                            var index = $(this).index() + 1;
+                            $('.numberOfSlide1').html(index + '/' + end);
+                        });
+                    </script>
+                </div>
+            </div>
+        </section>
 
 /* REPONSIVE MONITOR 2 */
 

@@ -1,3 +1,4 @@
+old style.css
 /* REPONSIVE MONITOR 1 */
 
 @media only screen and (min-width: 360px) and (max-width:575.9px) {
@@ -7,16 +8,31 @@
         display: flex;
         flex-wrap: wrap;
     }
-    /* navigation */
+    /* .divest_header {
+        width: 100%;
+        height: auto;
+    }
+    .navbar {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        width: 300px !important;
+        height: auto;
+    } */
     .navbar-nav {
         width: 90%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
-        background-color: darksalmon;
+        background-color: rgb(125, 155, 125);
     }
     .navbar-brand {
-        font-size: 28px !important;
+        font-size: 18px !important;
+        margin-left: -40px !important
+    }
+    .navbar-toggler {
+        width: 20px !important;
+        margin-left: -120px !important;
+        color: floralwhite !important;
     }
     .container-header {
         max-width: 100%;
@@ -26,9 +42,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-    }
-    .divest_header {
-        /* background-color: burlywood; */
     }
     .header_contain .header_content {
         width: 100% !important;
@@ -163,11 +176,10 @@
         font-size: 15px !important;
     }
     /* section1  */
-    .section1_about {
+    .section1_row2 .section1_about {
         width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: -20px !important;
     }
     .section1_about h5 {
         width: 50%;
@@ -175,6 +187,17 @@
         font-size: 18px !important;
     }
     .section1_about img {
+        width: 40%;
+        height: auto;
+        margin-left: -6px !important;
+        font-size: 18px !important;
+    }
+    .section1_row2 h5 {
+        width: 50%;
+        height: auto;
+        font-size: 18px !important;
+    }
+    .section1_row2 img {
         width: 40%;
         height: auto;
         margin-left: -6px !important;
@@ -270,23 +293,23 @@
         margin-right: auto !important;
         margin-top: -330px !important;
     }
-    .section1_row2 h5 {
+    /* .section1_row2 h5 {
         width: 100%;
         margin-left: auto !important;
         margin-right: auto !important;
         height: auto;
-    }
-    .section1_row2 {
+    } */
+    /* .section1_row2 {
         width: 100%;
         margin-left: auto !important;
         margin-right: auto !important;
         height: auto;
-    }
-    .section1_row2 img {
+    } */
+    /* .section1_row2 img {
         width: 60px;
         height: auto;
         margin-left: 110px;
-    }
+    } */
     .section1_row2_content3 {
         width: 100%;
         height: auto;
@@ -371,7 +394,7 @@
     .section2_contain {
         width: 100%;
         height: auto;
-        margin-top: 800px !important;
+        margin-top: 1000px !important;
     }
     .section2_title {
         width: 100%;
@@ -382,6 +405,7 @@
     .section2_title h1 {
         width: 70%;
         height: auto;
+        /* margin-top: 100px !important; */
         margin-left: auto !important;
         margin-right: auto !important;
         font-size: 25px !important;
@@ -630,6 +654,13 @@ body {
 
 /* new header */
 
+.navbar {
+    width: 1240px;
+    height: auto;
+    padding: 0;
+    border: 0;
+}
+
 .navbar-brand {
     /* cursor: pointer; */
     width: 143px;
@@ -640,53 +671,53 @@ body {
     font-weight: bold;
     font-size: 30px;
     line-height: 45px;
-    margin-left: -11px;
-    padding: 0 !important;
+    /* margin-left: -11px; */
+    padding: 0;
     /* identical to box height */
-    color: #FFFFFF !important;
+    color: #FFFFFF;
 }
 
 .nav-item .header_contactUs {
-    display: flex !important;
-    width: 154px !important;
-    height: 49px !important;
-    align-items: center !important;
+    display: flex;
+    width: 154px;
+    height: 49px;
+    align-items: center;
     border: 1px solid white;
     border-radius: 5px;
-    font-size: 18px !important;
-    justify-content: center !important;
+    font-size: 18px;
+    justify-content: center;
     margin-top: 20px;
-    margin-right: -26px;
+    margin-right: -15px;
 }
 
 .nav-item a {
-    cursor: pointer !important;
-    font-family: Poppin !important;
+    cursor: pointer;
+    font-family: Poppin;
     font-style: normal;
     font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px !important;
-    line-height: 27px !important;
-    color: #FFFFFF !important;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
 }
 
 .nav-link {
-    height: 27px !important;
+    height: 27px;
 }
 
 .nav-item .header_about {
     width: 60px;
     height: 27px;
-    margin-top: 29px;
+    margin-top: 35px;
     margin-right: 40px;
 }
 
 .nav-item .header_journal {
     width: 80px;
     height: 27px;
-    margin-top: 29px;
+    margin-top: 35px;
     margin-right: 40px;
 }
 
@@ -694,29 +725,29 @@ body {
     width: 96px;
     height: 27px;
     margin-right: 40px;
-    margin-top: 29px;
+    margin-top: 35px;
     white-space: nowrap;
 }
 
 .nav-item .header_services {
     width: 82px;
     height: 27px;
-    margin-top: 29px;
+    margin-top: 35px;
     margin-right: 40px;
 }
 
 .divest_header {
-    max-width: 1240px !important;
+    max-width: 1240px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(174, 211, 174);
 }
 
 .divest_header nav {
-    max-width: 1240px !important;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: firebrick;
 }
 
 
@@ -903,12 +934,14 @@ body {
 .header_contain {
     max-width: 885px;
     height: auto;
-    margin-top: 123px;
+    /* margin-top: 123px; */
     margin-right: auto;
     margin-left: auto;
-    /* background-color: burlywood; */
-    /* margin-left: 178px; */
     align-items: center !important;
+}
+
+.header_content {
+    padding-top: 202px;
 }
 
 .header_content1 h1 {
@@ -916,7 +949,7 @@ body {
     font-family: ABeeZee;
     font-style: normal;
     font-weight: normal;
-    margin-top: -2px !important;
+    margin-bottom: 40px;
     font-size: 68px;
     line-height: 80px;
     /* display: flex; */
@@ -937,7 +970,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     /* margin-left: 249px; */
-    margin-top: 40px;
+    margin-bottom: 40px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -955,7 +988,7 @@ body {
     max-width: 163px;
     height: auto;
     cursor: pointer;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-left: auto;
     margin-right: auto;
     /* margin-left: 361px; */
@@ -1068,11 +1101,9 @@ main {
     height: auto;
     margin-top: 30px;
     font-family: Poppin;
-    /* font-style: italic; */
     font-weight: normal;
     font-size: 22px;
     line-height: 33px;
-    /* display: flex; */
     align-items: center;
     color: #FFFFFF;
     overflow: hidden;
@@ -1716,7 +1747,7 @@ footer {
 }
 
 
-/* 1 slide section 4 */
+/* swiper slide section 4 */
 
 #swiper-slide1 {
     max-width: 480px;
@@ -2396,3 +2427,699 @@ footer {
 .text1_image5_section5 {
     margin-left: 56px;
 }
+
+.text_underline {
+    text-decoration: underline;
+}
+
+.title_section4 {
+    width: 216px;
+    height: 57px;
+    margin-bottom: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: ABeeZee;
+    font-size: 48px;
+    line-height: 57px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.section4 {
+    width: 1240px;
+    height: auto;
+    background-color: darksalmon;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.mySwiper1 .swiper-wrapper .swiper-slide img {
+    width: 480px;
+    height: 682px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.mySwiper1 .swiper-wrapper {
+    position: relative;
+    margin-left: -380px;
+}
+
+
+/* section 4 slide images */
+
+.swiper-slide_section4:hover .show_hover_image1_section4_slide {
+    opacity: 4;
+}
+
+.show_hover_image1_section4_slide {
+    position: absolute;
+    width: 480px;
+    height: 682px;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-left: -180px;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(28, 28, 28, 0.8);
+}
+
+.text1_hover_image1 {
+    max-width: 356px;
+    height: auto;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Poppin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.swiper_section4 {
+    width: 1240px;
+    height: 50px;
+    background-color: rosybrown;
+}
+
+.swiper_section4 .swiper-pagination {
+    width: 140px;
+    height: 24px;
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+    justify-self: center;
+}
+
+.swiper_section4 .section4_numberOfSlide1 {
+    margin-left: 1012px;
+    width: 48px;
+    height: auto;
+    padding-top: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.swiper_section4 .swiper-pagination-bullet-active {
+    width: 24px !important;
+    height: 24px !important;
+    background: none !important;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.swiper_section4 .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    opacity: 0.3;
+}
+old index.html
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="body_container">
+    <!-- header -->
+    <header>
+        <div class="container-header">
+            <div class="divest_header">
+                <nav class="navbar fixed-top navbar-expand-lg ">
+                    <!-- <nav class="navbar navbar-expand-lg "> -->
+                    <a class="navbar-brand" href="#">FOptimal</a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link header_about " href="#about">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link header_journal" href="#journal">JOURNAL</a>
+
+                                <li class="nav-item">
+                                    <a class="nav-link header_services" href="#services">SERVICES</a>
+                                </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link header_workOut " href="#workOut">WORK OUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link header_contactUs" href="#contactUs"> CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header_contain">
+                    <div class="header_content">
+                        <div class="header_content1">
+                            <h1>Passionate about Design <span class="font-italic italic_header"> Interior.</span> </h1>
+                        </div>
+                        <div class="header_content2">
+                            <h2>Industrial style interior for a young married couple.</h2>
+                        </div>
+                        <div class="header_content3">
+                            <a> DISCOVER MORE </a>
+                            <img class="header_img_line_underDiscover" src="./images/header_line_underDiscover.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="container-header">
+        <header>
+            <div class="navBar_header">
+                <div class="navigation_header">
+                    <h4 class="nav_header">FOptimal </h4>
+                </div>
+                <div class="main_navigation_header">
+                    <div class="nav_header_about "> <a href="#about">ABOUT</a> </div>
+                    <div class="nav_header_journal"><a href="#journal">JOURNAL</a> </div>
+                    <div class="nav_header_survices"> <a href="#services">SERVICES</a> </div>
+                    <div class="nav_header_ourWork"><a href="#uorWork"> WORK OUR</a></div>
+                </div>
+                <div class="box_contactUS">
+                    <div class="nav_header_contactUs"> <a href="#contactUs"> CONTACT US</a> </div>
+                </div>
+                <div class="header_contain">
+                    <div class="header_content">
+                        <div class="header_content1">
+                            <h1>Passionate about Design <span class="font-italic italic_header"> Interior.</span> </h1>
+                        </div>
+                        <div class="header_content2">
+                            <h2>Industrial style interior for a young married couple.</h2>
+                        </div>
+                        <div class="header_content3">
+                            <h2> DISCOVER MORE </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+    </div> -->
+    <main>
+        <!-- section 1 -->
+        <section class="container_section1">
+            <div class="section1_contain">
+                <div id="about">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="section1_row1_content">
+                                <div class="section1_about">
+                                    <h5>About</h5>
+                                    <img src="./images/section1_image_line.svg" alt="">
+                                </div>
+                                <div class="section1_row1_content2">
+                                    <h2>Ambitious designs for <span class="font-italic text_underline">Interior Project. </span> </h2>
+                                </div>
+                                <div class="section1_row1_content3">
+                                    <h5> <span class="font-italic font-italic-un"> Furniture Optimal</span> stands out among property agencies, and offers a wide range of creative and strategic services for brands, <br> companies, foundations and other remarkable
+                                        organizations.
+                                    </h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="section1_row1_images">
+                                <div class="section1_row1_images1">
+                                    <img src="./images/imageSection1.svg" alt="">
+                                </div>
+                                <div class="section1_row1_images2">
+                                    <img src="./images/imageSection1a.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OurTeam -->
+                <div id="ourTeam">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="section1_row2_images">
+                                <div class="section1_row2_images1">
+                                    <img src="./images/imagesSection1Row2.svg" alt="">
+                                </div>
+                                <div class="section1_row2_images2">
+                                    <img src="./images/imagesSection1Row2a.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="section1_row2_content">
+                                <div class="section1_row2">
+                                    <img src="./images/section1_image_line.svg" alt="">
+                                    <h5 class="section1_ourTeam">Our Team</h5>
+                                </div>
+                                <div class="section1_row2_content2">
+                                    <h2> <span class="font-italic text_underline"> We Work </span>with the great team.</h2>
+                                </div>
+                                <div class="section1_row2_content3">
+                                    <h5> <span class="font-italic text_underline"> Furniture Optimal </span>isn’t just a team — it’s a family. We all share the same vision here: to push ideas all the way, without taking ourselves too seriously, and overcoming
+                                        challenges together.</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- section2 -->
+        <section class="container_section2">
+            <div id="journal">
+                <div class="section2_contain">
+                    <div class="section2_title">
+                        <h1> We made <span class="Style_work_underline"> Journal. </span></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="section3_row">
+                                <div class="section3_row1">
+                                    <div class="section3_row1_content1">
+                                        <h4>Aesthetic Interior.</h4>
+                                    </div>
+                                    <div class="section3_row1_content2">
+                                        <h5>Great job for Aesthetic result. We all share the same vision here: to push ideas all the way.</h5>
+                                    </div>
+                                    <div class="section3_row123_content3">
+                                        <a>Read More</a>
+                                        <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="section3_row">
+                                <div class="section3_row2">
+                                    <div class="section3_row2_content1">
+                                        <h4>Family Work.</h4>
+                                    </div>
+                                    <div class="section3_row2_content2">
+                                        <h5>Family Work. We all share the same vision here: to push ideas all the way. </h5>
+                                    </div>
+                                    <div class="section3_row123_content3">
+                                        <a>Read More</a>
+                                        <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="section3_row">
+                                <div class="section3_row3">
+                                    <div class="section3_row3_content1">
+                                        <h4>Consistent Worker.</h4>
+                                    </div>
+                                    <div class="section3_row3_content2">
+                                        <h5>Great job for Consistent result. We all share the same vision here: to push ideas all the way.</h5>
+                                    </div>
+                                    <div class="section3_row123_content3">
+                                        <a>Read More</a>
+                                        <img class="section3_row1_imageLine1" src="./images/main_section2_line.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- section 4 -->
+        <section id="uorWork">
+            <div class="divest_container_section4">
+                <div class="class_section4_title">
+                    <h1> Our <span class="Style_work_underline"> Work </span></h1>
+                </div>
+                <div>
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <!-- 1 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide1">
+                                    <img src="https://vuagaubong.com/wp-content/uploads/2020/03/Heo-bong-2.jpg" alt="" class="image1_section4_slide">
+                                    <div class="show_hover_image1_section4_slide">
+                                        <h1 class="text1_hover_image1"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide2">
+                                    <img src="https://cf.shopee.vn/file/fed0c154b9017660933d1dea0b6867a5" alt="" class="image2_section4_slide">
+                                    <div class="show_hover_image2_section4_slide">
+                                        <h1 class="text2_hover_image2"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide3">
+                                    <img src="https://salt.tikicdn.com/ts/product/ab/22/df/edb15c5484fbec628c7d2f6004ffe88a.jpg" alt="" class="image3_section4_slide">
+                                    <div class="show_hover_image3_section4_slide">
+                                        <h1 class="text3_hover_image3"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide4">
+                                    <img src="https://vn-live-03.slatic.net/p/f462ab93f16419e9eda42cdb6a516372.jpg" alt="" class="image4_section4_slide">
+                                    <div class="show_hover_image4_section4_slide">
+                                        <h1 class="text4_hover_image4"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="swiper-slide">
+                                <div id="swiper-slide5">
+                                    <img src="https://salt.tikicdn.com/cache/w444/ts/product/42/c6/e9/7960e8399cb509bb1a8f51716cf0c95f.jpg" alt="" class="image5_section4_slide">
+                                    <div class="show_hover_image5_section4_slide">
+                                        <h1 class="text5_hover_image5"> Design Interior</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon_number_slide1">
+                        <div class="swiper-pagination">
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                            <span class="swiper-pagination-bullet "></span>
+                            <span class="swiper-pagination-bullet"></span>
+                            <span class="swiper-pagination-bullet"></span>
+                            <span class="swiper-pagination-bullet"></span>
+                        </div>
+                        <div class="section4_numberOfSlide1">
+                            <div class="numberOfSlide1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var swiper = new Swiper(".mySwiper", {
+                            slidesPerView: 3,
+                            spaceBetween: 80,
+                            slidesToScroll: 1,
+                            // dots: true,
+
+                            // infinite: true,
+                            // adaptiveHeight: true,
+                            centeredSlides: true,
+                            pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                            },
+                        });
+                        var start = 1;
+                        var end = 5;
+                        var show = $('.numberOfSlide1');
+                        show.text(start + '/' + end);
+                        $('.swiper-pagination-bullet').click(function() {
+                            var index = $(this).index() + 1;
+                            $('.numberOfSlide1').html(index + '/' + end);
+                        });
+                        $('.swiper-pagination-bullet').slideshow_auto(function() {
+                            var index = $(this).index() + 1;
+                            $('.numberOfSlide1').html(index + '/' + end);
+                        });
+                    </script>
+                </div>
+            </div>
+        </section>
+        <!-- section5 -->
+        <section id="services">
+            <div class="divest_container_section5">
+                <div class="class_section5_title">
+                    <h1> Our <span class="Style_work_underline"> Services </span></h1>
+                </div>
+                <div class="swiper-container mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div id="section5_swiper-slide1">
+                                <img src="./images/slide2_image2_section5.svg" alt="" class="image1_section5_slide">
+                                <div class="divies_content_image1">
+                                    <div class="diver2_section5">
+                                        <div class="line1_slide1_section5">
+                                            <img src="./images/section1_image_line.svg" alt="">
+                                        </div>
+
+                                        <div>
+                                            <h4 class="text1_image1_section5"> Design Interior</h4>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text2_image1_section5">Library Room Design </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div id="section5_swiper-slide2">
+                                <img src="./images/slide2_image3_section5.svg" alt="" class="image2_section5_slide">
+                                <div class="divies_content_image2">
+                                    <div class="diver2_section5">
+                                        <div class="line1_slide2_section5">
+                                            <img src="./images/section1_image_line.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4 class="text1_image2_section5"> Design Architecture</h4>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text2_image2_section5"> Building Design </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="section5_swiper-slide3">
+                                <img src="./images/slide2_image2_section5.svg" alt="" class="image3_section5_slide">
+                                <div class="divies_content_image3">
+                                    <div class="diver3_section5">
+                                        <div class="line1_slide3_section5">
+                                            <img src="./images/section1_image_line.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4 class="text1_image3_section5"> Design Interior</h4>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text2_image3_section5">Rest Room Design </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="section5_swiper-slide4">
+                                <img src="./images/slide2_image3_section5.svg" alt="" class="image4_section5_slide">
+                                <div class="divies_content_image4">
+                                    <div class="diver4_section5">
+                                        <div class="line1_slide4_section5">
+                                            <img src="./images/section1_image_line.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4 class="text1_image4_section5"> Design Interior</h4>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text2_image4_section5">Rest Room Design </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="section5_swiper-slide5">
+                                <img src="./images/slide2_image2_section5.svg" alt="" class="image5_section5_slide">
+                                <div class="divies_content_image4">
+                                    <div class="diver5_section5">
+                                        <div class="line1_slide5_section5">
+                                            <img src="./images/section1_image_line.svg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4 class="text1_image5_section5"> Design Interior</h4>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text2_image5_section5">Rest Room Design </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                    </div>
+
+                    <div class="icon_number_slide2">
+                        <div class="swiper-pagination">
+                            <div class="swiper-pagination">
+                                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                                <span class="swiper-pagination-bullet"></span>
+                                <span class="swiper-pagination-bullet"></span>
+                                <span class="swiper-pagination-bullet"></span>
+                                <span class="swiper-pagination-bullet"></span>
+                            </div>
+                        </div>
+                        <div class="section5_numberOfSlide2">
+                            <div class="numberOfSlide2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    var swiper = new Swiper(".mySwiper2", {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                        // centeredSlides: true,
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                    });
+                    var start = 1;
+                    var end = 5;
+                    var show = $('.numberOfSlide2');
+                    show.text(start + '/' + end);
+                    $('.swiper-pagination-bullet').click(function() {
+                        var index = $(this).index() + 1;
+                        $('.numberOfSlide2').html(index + '/' + end);
+                    });
+                </script>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="footer_divest" id="contactUs">
+            <div class="footer_container">
+                <div class="style_image_footer">
+                    <div class="footer_image">
+                        <img src="./images/footer_line.svg" alt="">
+                    </div>
+                </div>
+                <div class="footer_display">
+                    <div class="row">
+                        <div class="footer_content1">
+                            <div class="col-sm-6">
+                                <div class="footer_content_row1">
+                                    <a>FOptimal</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="footer_content_row1a">
+                                    <h6>©</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="footer_content2">
+                        <div class="footer_about">
+                            <a href="#about">About</a>
+                        </div>
+                        <div class="footer_jurnal">
+                            <a href="#journal">Journal</a>
+                        </div>
+                    </div>
+
+                    <div class="footer_content3">
+                        <div class="footer_Services">
+                            <a href="#services">Services</a>
+                        </div>
+                        <div class="footer_ourWork">
+                            <a href="#uorWork">Our Work</a>
+                        </div>
+                    </div>
+
+                    <div class="footer_content4">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="footer_locationIcon">
+                                    <img src="./images/imagesLocation.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="footer_content4a">
+                                    <a href="https://www.google.com/maps/place/Bd+Audent+18,+6000+Charleroi,+B%E1%BB%89/@50.4096533,4.4427298,17z/data=!3m1!4b1!4m5!3m4!1s0x47c2260b61128565:0xcf62a0858d72efc2!8m2!3d50.4096533!4d4.4449185">Boulevard Audent 18 6000 Charleroi Belgique</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_content5">
+                        <div class="box_footer_getItTouch">
+                            <div class="footer_getItTouch">
+                                <a> GET IT TOUCH </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
