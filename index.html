@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <meta charset="utf-8" />
 <title>Wiicamp's homework 2</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
@@ -13,6 +12,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="./css.css">
 
 
@@ -27,8 +27,9 @@
             <img class="img_header" src="./images/backgroundImageNav.svg" alt="">
         </div>
         <div class="content-header">
-            <div class="container_navigation">
-                <nav class="navbar-fixed-top navbar-expand-lg navbar-dark">
+            <!-- <div class="container_navigation"> -->
+            <nav class="navbar-fixed-top navbar-expand-lg">
+                <div class="navigation_header">
                     <a class="navbar-brand" href="#">FOptimal</a>
                     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -51,30 +52,27 @@
                             </li>
                         </ul>
                     </div>
-                </nav>
-            </div>
-            <script>
-                var nav = document.querySelector(".container");
-                var view = document.getElementById('view');
-                const myNavHeight = nav.getBoundingClientRect().height;
-                const openingHeight = (view.getBoundingClientRect().height * 0.95);
-                console.log(openingHeight);
-                console.log(view.getBoundingClientRect());
+                </div>
+            </nav>
+            <!-- </div> -->
 
-                window.onscroll = function() {
-                    "use strict";
-                    if (document.body.scrollTop >= myNavHeight && document.body.scrollTop < openingHeight || document.documentElement.scrollTop >= myNavHeight && document.documentElement.scrollTop < openingHeight) {
-                        nav.classList.add("active-header");
-                    } else if (document.body.scrollTop >= openingHeight || document.documentElement.scrollTop >= openingHeight) {
-                        nav.classList.add("active-main");
-                    } else {
-                        nav.classList.remove("active-header");
-                        nav.classList.remove("active-main");
-                    }
-                };
+            <script>
+                $(document).ready(function() {
+                    $(window).scroll(function() {
+                        // check if scroll event happened
+                        if ($(document).scrollTop() > 100) {
+                            // check if user scrolled more than 50 from top of the browser window
+                            $(".navbar-fixed-top").css("background-color", "#1C1C1C", "transition", "0.6s");
+                            // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                        } else {
+                            $(".navbar-fixed-top").css("background-color", "transparent", "transition", "0.3s");
+                            // if not, change it back to transparent
+                        }
+                    });
+                });
             </script>
             <div class="header_content">
-                <div class="divest_content_header">
+                <div class="divest_content_header" id="view">
                     <div class="header_content1">
                         <h1>Passionate about Design <span class="font-italic text_underline"> Interior.</span> </h1>
                     </div>
