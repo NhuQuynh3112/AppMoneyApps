@@ -27,30 +27,52 @@
             <img class="img_header" src="./images/backgroundImageNav.svg" alt="">
         </div>
         <div class="content-header">
-            <nav class="navbar-fixed-top navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#">FOptimal</a>
-                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link header_about " href="#about">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header_journal" href="#journal">JOURNAL</a>
-
+            <div class="container_navigation">
+                <nav class="navbar-fixed-top navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#">FOptimal</a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link header_services" href="#our_services">SERVICES</a>
+                                <a class="nav-link header_about " href="#about">ABOUT</a>
                             </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header_workOut " href="#our_work">OUR WORK </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header_contactUs" href="#contactUs"> CONTACT US</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                            <li class="nav-item">
+                                <a class="nav-link header_journal" href="#journal">JOURNAL</a>
+
+                                <li class="nav-item">
+                                    <a class="nav-link header_services" href="#our_services">SERVICES</a>
+                                </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link header_workOut " href="#our_work">OUR WORK </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link header_contactUs" href="#contactUs"> CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <script>
+                var nav = document.querySelector(".container");
+                var view = document.getElementById('view');
+                const myNavHeight = nav.getBoundingClientRect().height;
+                const openingHeight = (view.getBoundingClientRect().height * 0.95);
+                console.log(openingHeight);
+                console.log(view.getBoundingClientRect());
+
+                window.onscroll = function() {
+                    "use strict";
+                    if (document.body.scrollTop >= myNavHeight && document.body.scrollTop < openingHeight || document.documentElement.scrollTop >= myNavHeight && document.documentElement.scrollTop < openingHeight) {
+                        nav.classList.add("active-header");
+                    } else if (document.body.scrollTop >= openingHeight || document.documentElement.scrollTop >= openingHeight) {
+                        nav.classList.add("active-main");
+                    } else {
+                        nav.classList.remove("active-header");
+                        nav.classList.remove("active-main");
+                    }
+                };
+            </script>
             <div class="header_content">
                 <div class="divest_content_header">
                     <div class="header_content1">
@@ -247,10 +269,10 @@
                 var start = 1;
                 var end = 5;
                 var show = $('.numberOfSlide1');
-                show.text(start + '/' + end);
+                show.text(start + ' / ' + end);
                 $('.swiper-pagination-bullet').click(function() {
                     var index = $(this).index() + 1;
-                    $('.numberOfSlide1').html(index + '/' + end);
+                    $('.numberOfSlide1').html(index + ' / ' + end);
                 });
             </script>
         </section>
@@ -354,10 +376,10 @@
                 var start = 1;
                 var end = 5;
                 var show = $('.numberOfSlide2');
-                show.text(start + '/' + end);
+                show.text(start + ' / ' + end);
                 $('.swiper-pagination-bullet').click(function() {
                     var index = $(this).index() + 1;
-                    $('.numberOfSlide2').html(index + '/' + end);
+                    $('.numberOfSlide2').html(index + ' / ' + end);
                 });
             </script>
         </section>
@@ -367,14 +389,15 @@
             </div>
             <div class="footer">
                 <div class="footer_title">
-                    <a href=""> FOptimal <sup class="sup_footer_title">  © </sup></a>
+                    <a href=""> FOptimal</a>
+                    <p class="sup_footer_title"> © </p>
                 </div>
                 <div class="fisrt_footer_content">
-                    <a href="#about">About</a>
+                    <a class="footer_about" href="#about">About</a>
                     <a href="#journal">Jurnal</a>
                 </div>
                 <div class="second_footer_content">
-                    <a href="#our_services">Services</a>
+                    <a class="footer_services" href="#our_services">Services</a>
                     <a href="#our_work">Our Work </a>
                 </div>
                 <div class="third_footer_content">
