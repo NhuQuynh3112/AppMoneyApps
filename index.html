@@ -34,7 +34,45 @@
             <nav class="navbar-fixed-top navbar-expand-lg">
                 <div class="navigation_header">
                     <a class="navbar-brand" href="#">FOptimal</a>
-                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <button class="navbar-toggler navbar-dark" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" onclick="openNav()"></span>
+                    </button>
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidenav").style.width = "250px";
+                            // nó là độ rộng của slide kho người dùng nhấn click on a button
+                        }
+
+                        function closeNav() {
+                            document.getElementById("mySidenav").style.width = "0";
+                            // nó là độ rộng của slide cố định
+                        }
+                    </script>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <li class="nav-item">
+                            <a class="nav-link h_about" href="#about" onclick="closeNav()">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h_journal" href="#journal" onclick="closeNav()">JOURNAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h_services" href="#our_services" onclick="closeNav()">SERVICES</a>
+                        </li>
+                        <!-- </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link h_workOut " href="#our_work" onclick="closeNav()">OUR WORK</a>
+                        </li>
+                        <li class="nav-contact">
+                            <a class="nav-link h_contactUs" href="#contactUs" onclick="closeNav()">CONTACT US</a>
+                        </li>
+                        <!-- <a id="nav" href="#" onclick="closeNav()">About</a>
+                        <a id="nav" href="#" onclick="closeNav()">Services</a>
+                        <a id="nav" href="#" onclick="closeNav()">contact</a> -->
+
+                    </div>
+                    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
+                    <!-- .......................... -->
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -206,7 +244,7 @@
                         <div class="swiper-slide_section4">
                             <div class="section4_divest_content1">
                                 <img src="https://cf.shopee.vn/file/fed0c154b9017660933d1dea0b6867a5" alt="" class="image2_section4_slide">
-                                <div class="show_hover_image1_section4_slide">
+                                <div class="show_hover_image2_section4_slide">
                                     <h1 class="text1_hover_image1"> Design Interior</h1>
                                 </div>
                             </div>
@@ -216,7 +254,7 @@
                         <div class="swiper-slide_section4">
                             <div class="section4_divest_content2">
                                 <img src="https://salt.tikicdn.com/ts/product/ab/22/df/edb15c5484fbec628c7d2f6004ffe88a.jpg" alt="" class="image3_section4_slide">
-                                <div class="show_hover_image1_section4_slide">
+                                <div class="show_hover_image3_section4_slide">
                                     <h1 class="text1_hover_image1"> Design Interior</h1>
                                 </div>
                             </div>
@@ -226,7 +264,7 @@
                         <div class="swiper-slide_section4">
                             <div class="section4_divest_content3">
                                 <img src="https://vn-live-03.slatic.net/p/f462ab93f16419e9eda42cdb6a516372.jpg" alt="" class="image4_section4_slide">
-                                <div class="show_hover_image1_section4_slide">
+                                <div class="show_hover_image4_section4_slide">
                                     <h1 class="text1_hover_image1"> Design Interior</h1>
                                 </div>
                             </div>
@@ -236,7 +274,7 @@
                         <div class="swiper-slide_section4">
                             <div class="section4_divest_content4">
                                 <img src="https://salt.tikicdn.com/cache/w444/ts/product/42/c6/e9/7960e8399cb509bb1a8f51716cf0c95f.jpg" alt="" class="image5_section4_slide">
-                                <div class="show_hover_image1_section4_slide">
+                                <div class="show_hover_image5_section4_slide">
                                     <h1 class="text1_hover_image1"> Design Interior</h1>
                                 </div>
                             </div>
@@ -281,7 +319,6 @@
             </script>
         </section>
         <!-- section 5 -->
-
         <section class="section4" id="our_services">
             <h1 class="title_section5"> Our <span class="text_underline"> Services </span></h1>
             <div class="swiper-container mySwiper">
