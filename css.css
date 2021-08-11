@@ -871,6 +871,76 @@
             .section4_divest_content4 {
                 margin-left: -840px !important;
             }
+            /* show text in images section4*/
+            .swiper-slide_section4 .show_hover_image5_section4_slide {
+                opacity: 4;
+            }
+            .swiper-slide_section4 .show_hover_image4_section4_slide {
+                opacity: 4;
+            }
+            .swiper-slide_section4 .show_hover_image3_section4_slide {
+                opacity: 4;
+            }
+            .swiper-slide_section4 .show_hover_image2_section4_slide {
+                opacity: 4;
+            }
+            .swiper-slide_section4 .show_hover_image1_section4_slide {
+                opacity: 4;
+            }
+            .show_hover_image1_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .show_hover_image1_section4_slide {
+                position: absolute;
+                z-index: 1;
+                width: 350px !important;
+                height: 400px !important;
+                margin-left: -22px !important;
+            }
+            .image2_section4_slide {
+                margin-left: 52px !important;
+            }
+            .show_hover_image2_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .show_hover_image2_section4_slide {
+                position: absolute;
+                z-index: 1;
+                width: 350px !important;
+                height: 400px !important;
+                margin-left: -164px !important;
+            }
+            .show_hover_image3_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .show_hover_image3_section4_slide {
+                position: absolute;
+                z-index: 1;
+                width: 350px !important;
+                height: 400px !important;
+                margin-left: -347px !important;
+            }
+            .show_hover_image4_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .show_hover_image4_section4_slide {
+                position: absolute;
+                z-index: 1;
+                width: 350px !important;
+                height: 400px !important;
+                margin-left: -514px !important;
+            }
+            .show_hover_image5_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .show_hover_image5_section4_slide {
+                position: absolute;
+                z-index: 1;
+                width: 350px !important;
+                height: 400px !important;
+                margin-left: -687px !important;
+            }
+            /* show text in images section4  */
             /* slice section 5 */
             .section5_swiper a img {
                 width: 270px !important;
@@ -879,34 +949,6 @@
             .mySwiper .swiper-wrapper {
                 margin-left: -240px !important;
             }
-            /* .section5_divest_content1 {
-                width: 170px !important;
-                height: 320px !important;
-                margin-left: -220px !important;
-            } */
-            /* .section5_divest_content2 {
-                width: 170px !important;
-                height: 320px !important;
-                margin-left: -810px !important;
-            } */
-            /* .section5_divest_content3 {
-                width: 170px !important;
-                height: 320px !important;
-                margin-left: -1400px !important;
-            } */
-            /* .section5_divest_content4 {
-                width: 170px !important;
-                height: 320px !important;
-                margin-left: -1990px !important;
-            } */
-            /* .section5_divest_content5 {
-                width: 170px !important;
-                height: 320px !important;
-                margin-left: -2580px !important;
-            } */
-            /* .swiper_section5 {
-                margin-top: 100px !important;
-            } */
         }
         /* 768 monitor */
         
