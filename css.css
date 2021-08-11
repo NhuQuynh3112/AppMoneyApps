@@ -7,6 +7,25 @@
                 height: auto;
                 margin: 0;
             }
+            /* section 4 */
+            .swiper-slide_section4 .show_hover_image5_section4_slide {
+                opacity: 4;
+                width: 240px !important;
+                height: 400px !important;
+            }
+            .swiper-slide_section4 .show_hover_image1_section4_slide {
+                opacity: 4;
+            }
+            .swiper-slide_section4 .show_hover_image2_section4_slide {
+                opacity: 4;
+            }
+            .swiper-slide_section4 .show_hover_image3_section4_slide {
+                opacity: 4;
+            }
+            .swiper-slide_section4 .show_hover_image4_section4_slide {
+                opacity: 4;
+            }
+            /*  section 4 */
             .navbar-brand {
                 margin-left: 15px !important;
             }
@@ -440,38 +459,82 @@
                 margin-left: -10px !important;
             }
             .swiper-slide_section4 img {
-                width: 240px !important;
+                width: 230px !important;
                 height: 400px !important;
             }
             /* 1 */
             .show_hover_image1_section4_slide {
-                width: 240px !important;
+                width: 230px !important;
                 height: 400px !important;
-                margin-left: -65px !important;
+                margin-left: -60px !important;
+                /* background-color: darkslateblue !important; */
             }
             .show_hover_image1_section4_slide h1 {
                 font-size: 30px !important;
             }
             /* 2 */
             .show_hover_image2_section4_slide {
-                width: 240px !important;
+                position: absolute;
+                z-index: 1;
+                width: 230px !important;
                 height: 400px !important;
-                background-color: deepskyblue !important;
+                /* background-color: deepskyblue !important; */
                 /* background: rgba(28, 28, 28, 0.8) !important; */
-                margin-left: 65px !important;
+                margin-left: -380px !important;
             }
             .show_hover_image2_section4_slide h1 {
                 font-size: 30px !important;
             }
-            /* .text1_hover_image1 {
+            .show_hover_image3_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .show_hover_image3_section4_slide {
+                position: absolute;
+                z-index: 1;
                 width: 240px !important;
                 height: 400px !important;
-            } */
+                /* background: rgba(28, 28, 28, 0.8) !important; */
+                margin-left: -695px !important;
+            }
+            /*  */
+            .show_hover_image4_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .image4_section4_slide {
+                width: 230px !important;
+                height: 400px !important;
+                margin-left: 12px !important;
+            }
+            .show_hover_image4_section4_slide {
+                position: absolute;
+                z-index: 1;
+                width: 230px !important;
+                height: 400px !important;
+                /* background: rgba(28, 28, 28, 0.8) !important; */
+                margin-left: -1000px !important;
+            }
+            /*  */
+            .show_hover_image5_section4_slide h1 {
+                font-size: 30px !important;
+            }
+            .image5_section4_slide {
+                width: 230px !important;
+                height: 400px !important;
+                margin-left: 12px !important;
+            }
+            .show_hover_image5_section4_slide {
+                position: absolute;
+                z-index: 1;
+                width: 230px !important;
+                height: 400px !important;
+                /* background: rgba(28, 28, 28, 0.8) !important; */
+                margin-left: -1325px !important;
+            }
             .section4_divest_content1 {
                 margin-left: -435px !important;
             }
             .section4_divest_content2 {
-                margin-left: -750px !important;
+                margin-left: -740px !important;
             }
             .section4_divest_content3 {
                 margin-left: -1067px !important;
