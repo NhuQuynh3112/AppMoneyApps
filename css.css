@@ -1300,29 +1300,44 @@
         .swiper_section4 {
             width: 1240px;
             height: 50px;
+            margin-top: 20px;
         }
         
         .swiper_section4 .swiper-pagination {
             width: 140px;
             height: 24px;
             display: flex;
-            margin-top: 26px;
-            margin-left: 20px;
             align-items: center;
             justify-content: space-between;
+            margin-top: 6px;
         }
         
         .swiper_section4 .section4_numberOfSlide1 {
-            margin-left: 1173px;
+            /* margin-left: 1173px;
             white-space: nowrap;
-            width: 48px;
-            height: auto;
+            max-width: 48px !important;
+            height: 36px !important;
             padding-top: 19px;
             font-family: Poppins;
             font-style: normal;
             font-weight: 600;
             font-size: 24px;
+            background-color: bisque !important;
+            line-height: 36px !important;
+            align-items: center;
+            color: #FFFFFF; */
+        }
+        
+        .numberOfSlide1 {
+            margin-left: 1173px;
+            width: 48px;
+            height: 36px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
             line-height: 36px;
+            display: flex;
             align-items: center;
             color: #FFFFFF;
         }
@@ -1346,20 +1361,21 @@
         .swiper_section5 {
             width: 1240px;
             height: 50px;
+            margin-top: 20px;
         }
         
         .swiper_section5 .swiper-pagination {
             width: 140px;
             height: 24px;
             display: flex;
-            margin-top: 26px;
+            /* margin-top: 26px; */
             margin-left: 20px;
             align-items: center;
             justify-content: space-between;
         }
         
         .swiper_section5 .section5_numberOfSlide1 {
-            margin-left: 1173px;
+            /* margin-left: 1173px;
             width: 48px;
             height: auto;
             white-space: nowrap;
@@ -1369,6 +1385,20 @@
             font-weight: 600;
             font-size: 24px;
             line-height: 36px;
+            align-items: center;
+            color: #FFFFFF; */
+        }
+        
+        .numberOfSlide2 {
+            margin-left: 1173px;
+            width: 48px;
+            height: 36px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            display: flex;
             align-items: center;
             color: #FFFFFF;
         }
@@ -1775,9 +1805,14 @@
             object-fit: cover;
         }
         
+        .section5_swiper:hover {
+            border: 1px solid pink;
+            transition: .3s;
+        }
+        
         .mySwiper .swiper-wrapper {
             position: relative;
-            margin-left: -405px;
+            margin-left: -400px;
         }
         
         .section5_image1_title {
@@ -1822,9 +1857,9 @@
             font-size: 28px;
             line-height: 42px;
             text-decoration: none !important;
-            /* identical to box height */
             display: flex;
             align-items: center;
+            text-align: left;
             color: #FFFFFF !important;
             overflow: hidden;
             display: -webkit-box;
@@ -1850,45 +1885,52 @@
         
         .section5_image3_title {
             width: 292px;
-            height: auto;
+            height: 36px;
+            display: flex;
             white-space: nowrap;
             margin-top: 20px;
-            display: flex;
         }
         
         .section5_image3_title a {
             width: 236px;
             height: 36px;
+            text-decoration: none;
             font-family: Poppins;
             font-style: normal;
             font-weight: normal;
             font-size: 24px;
             line-height: 36px;
-            text-decoration: none !important;
-            margin-left: 6px;
-            /* identical to box height */
             display: flex;
             align-items: center;
+            justify-content: center;
             color: #FFFFFF !important;
             opacity: 0.6;
             overflow: hidden;
             display: -webkit-box;
         }
         
+        .section5_image3_title img {
+            width: 50px;
+            height: auto;
+            margin-right: 6px;
+        }
+        
         .section5_image3_content {
             width: 221px;
-            height: auto;
+            height: 42px;
+            margin-top: 14px;
+            text-decoration: none !important;
+            white-space: nowrap;
             font-family: Poppins;
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
             line-height: 42px;
-            margin-top: 14px;
-            text-decoration: none !important;
             /* identical to box height */
-            display: flex;
             align-items: center;
             color: #FFFFFF !important;
+            overflow: hidden;
+            display: -webkit-box;
         }
         
         .footer {
@@ -1972,6 +2014,7 @@
             font-size: 18px;
             line-height: 27px;
             display: flex;
+            white-space: nowrap;
             align-items: center;
             color: #FFFFFF;
             overflow: hidden;
@@ -2027,7 +2070,7 @@
             cursor: pointer;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 14px;
+            margin-top: 13px;
             font-family: Poppin;
             font-style: normal;
             font-weight: normal;
@@ -2047,9 +2090,10 @@
         
         .footer_image {
             width: 1240px;
-            height: auto;
-            margin-top: 28px;
-            margin-bottom: 25px;
+            height: 0px;
+            border: 0.5px solid #FFFFFF;
+            margin-top: 16px;
+            margin-bottom: 31px;
             margin-left: auto;
             margin-right: auto;
         }
