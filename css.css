@@ -1004,6 +1004,27 @@
             .mySwiper .swiper-wrapper {
                 margin-left: -240px !important;
             }
+            .footer_title a {
+                font-weight: normal !important;
+            }
+            .fisrt_footer_content a {
+                font-weight: normal !important;
+            }
+            .second_footer_content a {
+                font-weight: normal !important;
+            }
+            .third_footer_content a {
+                font-weight: normal !important;
+            }
+            .section5_image1_content {
+                font-weight: normal !important;
+            }
+            .section5_image2_content {
+                font-weight: normal !important;
+            }
+            .section5_image1_content {
+                font-weight: normal !important;
+            }
         }
         /* 768 monitor */
         
