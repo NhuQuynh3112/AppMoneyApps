@@ -750,7 +750,7 @@
             .section1_ourTeam_text {
                 width: 350px !important;
                 height: auto;
-                margin-left: 10px !important;
+                margin-left: 25px !important;
             }
             .title_ourTeam_section2 {
                 width: 330px !important;
@@ -2092,8 +2092,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
-        .navbar-brand {
+        /* .navbar-brand {
             width: 143px;
             height: 45px;
             padding: 0;
@@ -2105,38 +2104,25 @@
             font-size: 30px;
             line-height: 45px;
             cursor: pointer;
-            /* width: 143px;
-            height: 45px;
-            font-family: Poppins !important;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 45px;
-            margin-right: 0px;
-            padding: 0;
-            color: #FFFFFF !important; */
-        }
-        /* .nav-item .header_about {
-            height: 27px;
-            width: 60px;
-            margin-right: 40px;
-        }
-        
-        .nav-item .header_journal {
-            width: 80px;
-            margin-right: 40px;
-        }
-        
-        .nav-item .header_workOut {
-            width: 96px;
-            margin-right: 40px;
-            white-space: nowrap;
-        }
-        
-        .nav-item .header_services {
-            width: 82px;
-            margin-right: 40px;
         } */
+        /* .navbar-brand a {
+            font-weight: bold;
+            color: #FFFFFF;
+        } */
+        
+        .navbar-brand {
+            width: 143px;
+            height: 45px;
+            margin-top: 2px;
+            padding: 0 !important;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold !important;
+            font-size: 30px !important;
+            line-height: 45px !important;
+            text-align: left;
+            color: #FFFFFF !important;
+        }
         
         .navbar-nav .nav-item {
             height: 27px;
